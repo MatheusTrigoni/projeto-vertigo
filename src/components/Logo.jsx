@@ -6,10 +6,11 @@ import t from '../images/t.png'
 import i from '../images/i.png'
 import g from '../images/g.png'
 import o from '../images/o.png'
+import '../styles/Logo.css'
 
 export function Logo() {
     return (
-        <div>
+        <div className="logo">
             <img src={logo} alt="imagem da logo" />
             <img src={V} alt="V" />
             <img src={e} alt="e" />

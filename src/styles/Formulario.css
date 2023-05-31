@@ -1,0 +1,33 @@
+.formulario {
+    width: 24rem;
+    height: 20.25rem;
+}
+
+#form-inicial label {
+    font-size: .875rem;
+    line-height: 1.3306rem;
+    font-weight: 600;
+}
+
+#form-inicial input {
+    width: 24rem;
+    height: 3.3125rem;
+    background-color: #FFF;
+    border: .0625rem solid #E2E8F0;
+    border-radius: .25rem;
+}
+
+#form-inicial input::placeholder {
+    font-size: .875rem;
+    line-height: 1.3306rem;
+    font-weight: 400;
+    margin-left: .75rem;
+    color: #94A3B8;
+}
+
+.paragrafo-label {
+    font-size: .875rem;
+    line-height: 1.3306rem;
+    font-weight: 600;
+    color: #7C3AED;
+}

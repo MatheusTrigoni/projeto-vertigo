@@ -1,9 +1,9 @@
-import Logo from './components/Logo'
+import { Inicial } from './components/Inicial'
 
 export function App() {
     return (
         <>
-            <Logo />
+            <Inicial />
         </>
     )
 }
