@@ -11,7 +11,7 @@ export function Formulario() {
                     <input id="email" type="text" placeholder="Digite seu e-mail" />
                 </div>
 
-                <div>
+                <div className="div-esqueceu">
                     <label htmlFor="senha" className="cinza-escuro">Senha</label>
                     <p className="paragrafo-label">Esqueceu a senha?</p>
                 </div>

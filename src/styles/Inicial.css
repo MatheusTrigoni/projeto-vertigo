@@ -5,3 +5,19 @@
 .cinza-escuro {
     color: #1E293B;
 }
+
+.roxa {
+    width: 46rem;
+    height: 56.25rem;
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+.tela {
+    margin: 13rem 13rem 13.0625rem 7rem;
+    width: 24rem;
+    height: 30.1875rem;
+}
