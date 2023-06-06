@@ -7,17 +7,24 @@
 }
 
 .roxa {
-    width: 46rem;
     height: 56.25rem;
 }
 
 section {
+    width: 90rem;
+    height: 56.25rem;
+    background-color: #F8FAFC;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .tela {
-    margin: 13rem 13rem 13.0625rem 7rem;
+    margin-left: 7rem;
+    margin-top: 2.5rem;
     width: 24rem;
     height: 30.1875rem;
+}
+
+button {
+    cursor: pointer;
 }

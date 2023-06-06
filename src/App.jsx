@@ -1,9 +1,20 @@
-import { Inicial } from './components/Inicial'
+import { Logo } from './components/Logo'
+import { Header } from './components/Header'
+import { Formulario } from './components/Formulario'
+import fundoRoxo from './images/fundo-roxo.png'
+import './App.css'
 
 export function App() {
     return (
-        <>
-            <Inicial />
-        </>
+        <section>
+            <div className="tela">
+                <Logo />
+                <Header />
+                <Formulario />
+            </div>
+            <div>
+                <img src={fundoRoxo} alt="imagem com fundo roxo" className="roxa" />
+            </div>
+        </section>
     )
 }
